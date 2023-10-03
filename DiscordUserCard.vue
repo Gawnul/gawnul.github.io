@@ -74,7 +74,7 @@ export default {
     },
     avatar: {
       type: String, // You can put a local path or an URL
-      default: "assets/images/logo.png",
+      default: "assets/img/logo.png",
       required: true
     },
     badges: {
