@@ -74,7 +74,7 @@ export default {
     },
     avatar: {
       type: String, // You can put a local path or an URL
-      default: null,
+      default: "assets/images/logo.png",
       required: true
     },
     badges: {
@@ -84,7 +84,7 @@ export default {
     },
     username: {
       type: String,
-      default: null,
+      default: Drively,
       required: true
     },
     discriminator: {
@@ -124,7 +124,7 @@ export default {
     },
     userId: {
       type: String,
-      default: null,
+      default: "763403228552495124",
       required: false
     }
   },
