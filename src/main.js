@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import App from './DiscordUserCard.vue'
+import DiscordUserCard from './DiscordUserCard.vue'
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  render: h => h(DiscordUserCard),
   }).$mount('#DiscordUserCard')
