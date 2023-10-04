@@ -1,4 +1,5 @@
 <template>
+ <div id=card1>
   <div class="card">
     <div class="card-header">
       <div v-if="$props.bannerImage" class="banner-img" :style="{ background: `url(${$props.bannerImage})`}"></div>
@@ -58,6 +59,7 @@
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>
