@@ -1,8 +1,7 @@
-import Vue from 'vue'
-import DiscordUserCard from './DiscordUserCard.vue'
+import MyComponent from './DiscordUserCard.vue'
 
-Vue.config.productionTip = false
-
-new Vue({
-  render: h => h(DiscordUserCard),
-  }).$mount('#card1')
+export default {
+  components: {
+    MyComponent
+  }
+}
